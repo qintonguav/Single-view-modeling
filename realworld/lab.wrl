@@ -1,0 +1,114 @@
+#VRML V2.0 utf8
+
+Shape{
+    appearance Appearance {
+        texture ImageTexture { url "1.jpg"}
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [ 0 50 100,
+                0 0 100,
+                120 0 100,
+                120 50 100
+            ] }
+        coordIndex [0,1,2,3,-1]
+        texCoord TextureCoordinate {
+            point [0 1,
+                0 0,
+                1 0,
+                1 1]}
+    }
+}
+
+
+
+Shape{
+    appearance Appearance {
+        texture ImageTexture { url "wall2.jpg"}
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [
+                2.72073752532715	670.836468298402	246.677326991863
+                2.72073752532715	670.836468298402	0,
+                478.407712030557	674.594853432002	0,
+                478.407712030557	674.594853432002	250,
+
+
+
+            ] }
+        coordIndex [0,1,2,3,-1]
+        texCoord TextureCoordinate {
+            point [0 1,
+                0 0,
+                1 0,
+                1 1]}
+    }
+}
+
+Shape{
+    appearance Appearance {
+        texture ImageTexture { url "2.jpg"}
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [
+                0.407137464399273	49.7862607924941	100
+                0.407137464399273	49.7862607924941	0,
+                1.05283146164404	2.80015158628922	0,
+                1.05283146164404	2.80015158628922	100,
+
+            ] }
+        coordIndex [0,1,2,3,-1]
+        texCoord TextureCoordinate {
+            point [0 1,
+                0 0,
+                1 0,
+                1 1]}
+    }
+}
+Shape{
+    appearance Appearance {
+        texture ImageTexture { url "3.jpg"}
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [
+                1.05283146164404	2.80015158628922	100
+               1.05283146164404	2.80015158628922	0,
+               119.781915769128	0.123749650175167	0,
+                119.781915769128	0.123749650175167	100,
+
+
+
+            ] }
+        coordIndex [0,1,2,3,-1]
+        texCoord TextureCoordinate {
+            point [0 1,
+                0 0,
+                1 0,
+                1 1]}
+    }
+}
+
+Shape{
+    appearance Appearance {
+        texture ImageTexture { url "wall3.jpg"}
+    }
+    geometry IndexedFaceSet {
+        coord Coordinate {
+            point [
+                478.407712030557	674.594853432002	250
+                478.407712030557	674.594853432002	0,
+                457.348953395710	230.358184656043	0,
+                457.348953395710	230.358184656043	248.751058319948,
+
+            ] }
+        coordIndex [0,1,2,3,-1]
+        texCoord TextureCoordinate {
+            point [0 1,
+                0 0,
+                1 0,
+                1 1]}
+    }
+}
